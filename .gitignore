@@ -1,0 +1,57 @@
+# Binaries & build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+dist/
+build/
+auto-notes-sync
+funk-auto-sync
+
+# Documentation / internal research
+docs/
+
+# Go specific
+vendor/
+
+# Test files & coverage
+*_test.go
+coverage.txt
+coverage.html
+*.prof
+profile.out
+
+# IDEs & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*credential*
+*secret*
+
+# Microsoft Office temporary / lock files
+~$*
+*.tmp
+
+# Logs
+*.log

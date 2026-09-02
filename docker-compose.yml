@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  funk-auto-sync:
+    build: .
+    container_name: funk-auto-sync
+    restart: unless-stopped
+    volumes:
+      # Mount folder notes / git repo
+      - /path/to/your/notes:/notes
+      # Mount SSH keys & git config untuk push/pull remote
+      - ~/.ssh:/root/.ssh:ro
+      - ~/.gitconfig:/root/.gitconfig:ro
+    environment:
+      - TZ=Asia/Jakarta
+      - GIT_AUTHOR_NAME=YourName
+      - GIT_AUTHOR_EMAIL=you@example.com
