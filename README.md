@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="banner.jpg" alt="funk-auto-sync banner" width="700">
+  <img src="https://repository-images.githubusercontent.com/1354322046/ddfbf34c-1967-40f3-9218-6cbd6fea7905" alt="FUNK-AUTO-SYNC" width="100%">
 </p>
 
 <p align="center">
